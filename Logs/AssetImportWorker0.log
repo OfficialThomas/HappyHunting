@@ -144,3 +144,4 @@ Received Import Request.
 Start importing Assets/Scripts/GameController/GAMECONTROLLER_README.md using Guid(c7f58e398980a8d3fb9c37aebf9a21b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89780360433f05fd6291e5a22feea036') in 0.020020 seconds 
   Import took 0.024512 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
