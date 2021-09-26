@@ -7,6 +7,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
     public float _speed = 1;
     public float _cooldown = 0.5f;
     public GameObject[] _citizens;
+    public AudioSource _audioSource;
     private bool _shot = false;
     private bool _found = false;
     private float _timer = 0;
@@ -64,7 +65,12 @@ public class HappyHunting_Crosshair : MonoBehaviour
             CheckForTarget();
             _timer = _cooldown;
             _shot = true;
+<<<<<<< Updated upstream
             //Camera Sound
+=======
+
+            _audioSource.Play();
+>>>>>>> Stashed changes
         }
 
     }

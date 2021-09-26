@@ -1378,6 +1378,7 @@ MonoBehaviour:
   _speed: 8
   _cooldown: 0.5
   _citizens: []
+  _audioSource: {fileID: 254607822}
 --- !u!61 &1122453493
 BoxCollider2D:
   m_ObjectHideFlags: 0
