@@ -19,6 +19,10 @@ public class HappyHunting_Target : MonoBehaviour
     {
         foreach (GameObject citizen in _crosshair.GetComponent<HappyHunting_Crosshair>()._citizens)
         {
+            if (citizen.GetComponent<HappyHunting_Citizen>()._target)
+            {
+                _sprite.sprite = citizen.GetComponent<SpriteRenderer>().sprite;
+            }
 
         }
         

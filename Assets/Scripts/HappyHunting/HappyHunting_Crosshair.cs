@@ -78,7 +78,9 @@ public class HappyHunting_Crosshair : MonoBehaviour
                 if(Mathf.Abs(citizen.transform.position.x - transform.position.x) < 1.15f && Mathf.Abs(citizen.transform.position.y - transform.position.y) < 1.15f)
                 {
                     Freeze();
+                    citizen.GetComponent<SpriteRenderer>().sprite = citizen.GetComponent<HappyHunting_Citizen>()._kissingSprite;
                     _found = true;
+                    //Win Condition Here
                 }
             }
         }

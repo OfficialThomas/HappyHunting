@@ -6,6 +6,7 @@ public class HappyHunting_Citizen : MonoBehaviour
 {
     public float _speed = 1;
     public bool _target = false;
+    public Sprite _kissingSprite;
 
     //wall bouncing variables
     //referencing video for characters bouncing on walls
@@ -24,6 +25,7 @@ public class HappyHunting_Citizen : MonoBehaviour
         Vector3 direction = new Vector3(Random.value, Random.value, 0);
         direction = direction.normalized;
         _rigidBody.velocity = direction * _speed;
+        transform.localScale = new Vector3(1, 1, 1) * Random.Range(0.6f, 3);
         
     }
 
