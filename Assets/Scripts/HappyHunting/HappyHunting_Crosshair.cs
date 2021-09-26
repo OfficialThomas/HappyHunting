@@ -18,7 +18,6 @@ public class HappyHunting_Crosshair : MonoBehaviour
         _citizens = GameObject.FindGameObjectsWithTag("Citizen");
         int target = (int) Random.Range(0f, _citizens.Length - 1);
         _citizens[target].GetComponent<HappyHunting_Citizen>()._target = true;
-        
     }
 
     // Update is called once per frame
@@ -65,12 +64,10 @@ public class HappyHunting_Crosshair : MonoBehaviour
             CheckForTarget();
             _timer = _cooldown;
             _shot = true;
-<<<<<<< Updated upstream
+
             //Camera Sound
-=======
 
             _audioSource.Play();
->>>>>>> Stashed changes
         }
 
     }
