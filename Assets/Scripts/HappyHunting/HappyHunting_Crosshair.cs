@@ -75,6 +75,14 @@ public class HappyHunting_Crosshair : MonoBehaviour
 
     }
 
+    //win game after a pause for a photo
+    IEnumerator ExecuteAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        GameController.Instance.WinGame();
+    }
+
     //finding out if the target was correct
     void CheckForTarget()
     {
@@ -88,6 +96,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
                     citizen.GetComponent<SpriteRenderer>().sprite = citizen.GetComponent<HappyHunting_Citizen>()._kissingSprite;
                     _found = true;
                     //Win Condition Here
+                    StartCoroutine(ExecuteAfterTime(2)); // Change to any delay amount before the game ends!
                 }
             }
         }
