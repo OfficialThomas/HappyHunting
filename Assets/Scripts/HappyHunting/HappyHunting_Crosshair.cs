@@ -6,8 +6,12 @@ public class HappyHunting_Crosshair : MonoBehaviour
 {
     public float _speed = 1;
     public float _cooldown = 0.5f;
+
+    public AudioSource _captureSound;
+    public AudioSource _BGM;
+    public AudioSource _Victory;
+
     public GameObject[] _citizens;
-    public AudioSource _audioSource;
     private bool _shot = false;
     private bool _found = false;
     private float _timer = 0;
@@ -65,12 +69,8 @@ public class HappyHunting_Crosshair : MonoBehaviour
             CheckForTarget();
             _timer = _cooldown;
             _shot = true;
-<<<<<<< Updated upstream
             //Camera Sound
-=======
-
-            _audioSource.Play();
->>>>>>> Stashed changes
+            _captureSound.Play();
         }
 
     }
@@ -100,7 +100,8 @@ public class HappyHunting_Crosshair : MonoBehaviour
         {
             //stops citizen
             citizen.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-
+            _BGM.Stop();
+            _Victory.Play();
         }
     }
 }
