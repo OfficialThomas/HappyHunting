@@ -1409,8 +1409,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1122453491}
   - component: {fileID: 1122453490}
-  - component: {fileID: 1122453492}
   - component: {fileID: 1122453493}
+  - component: {fileID: 1122453492}
   m_Layer: 0
   m_Name: HappyHunting_Crosshair
   m_TagString: Untagged
