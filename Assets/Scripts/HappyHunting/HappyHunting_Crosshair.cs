@@ -15,7 +15,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
     void Start()
     {
         _citizens = GameObject.FindGameObjectsWithTag("Citizen");
-        int target = (int) Random.Range(0f, 5f);
+        int target = (int) Random.Range(0f, _citizens.Length - 1);
         _citizens[target].GetComponent<HappyHunting_Citizen>()._target = true;
         
     }

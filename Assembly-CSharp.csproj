@@ -62,7 +62,6 @@
     <Compile Include="Assets\Scripts\GameController\SliderController.cs" />
     <Compile Include="Assets\Scripts\HappyHunting\HappyHunting_Citizen.cs" />
     <Compile Include="Assets\Scripts\GameController\Singleton.cs" />
-    <Compile Include="Assets\Scripts\HappyHunting\HappyHunting_World.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\How to use the Game Controller.txt" />
