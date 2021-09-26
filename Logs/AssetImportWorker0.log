@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16340 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16223 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jaq14/Desktop/HappyHunting
+C:/Users/jonah/Documents/GitHub/HappyHunting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58294
-Successfully changed project path to: C:/Users/jaq14/Desktop/HappyHunting
-C:/Users/jaq14/Desktop/HappyHunting
+60948
+Successfully changed project path to: C:/Users/jonah/Documents/GitHub/HappyHunting
+C:/Users/jonah/Documents/GitHub/HappyHunting
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jaq14/Desktop/HappyHunting/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jonah/Documents/GitHub/HappyHunting/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
     Vendor:   
-    VRAM:     6052 MB
+    VRAM:     5980 MB
     Driver:   30.0.14.7196
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003890 seconds.
+Registered in 0.001836 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
+- Completed reload, in  0.895 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1994ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (747ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009036 seconds.
+Registered in 0.004322 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.071 seconds
+- Completed reload, in  0.932 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2072ms)
-		BeginReloadAssembly (261ms)
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1674ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (588ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (623ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (388ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.0 MB.
 System memory in use after: 93.1 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 3.955000 ms (FindLiveObjects: 0.500300 ms CreateObjectMapping: 0.106400 ms MarkObjects: 3.250000 ms  DeleteObjects: 0.096600 ms)
+Total: 2.041900 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.087500 ms MarkObjects: 1.723000 ms  DeleteObjects: 0.051400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,21 +126,303 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/How to use the Game Controller.txt
-  artifactKey: Guid(2196557188875be4691a8e9ac73d6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/How to use the Game Controller.txt using Guid(2196557188875be4691a8e9ac73d6700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2104f1525c92d44c94431ad4c03091') in 0.059496 seconds 
-  Import took 0.063964 seconds .
+  path: Assets/Art/HappyHunting_Crosshair.png
+  artifactKey: Guid(d0da527b4bf871b4c9d53ac77420663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Crosshair.png using Guid(d0da527b4bf871b4c9d53ac77420663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9836de6084988279700ac7825c2ce4d') in 0.082700 seconds 
+  Import took 0.085281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.694282 seconds.
-  path: Assets/Scripts/GameController/GAMECONTROLLER_README.md
-  artifactKey: Guid(c7f58e398980a8d3fb9c37aebf9a21b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController/GAMECONTROLLER_README.md using Guid(c7f58e398980a8d3fb9c37aebf9a21b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89780360433f05fd6291e5a22feea036') in 0.020020 seconds 
-  Import took 0.024512 seconds .
+  Time since last request: 0.000141 seconds.
+  path: Assets/Art
+  artifactKey: Guid(79597b614ab0bd641b2025e1cce0d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(79597b614ab0bd641b2025e1cce0d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b0643f3696dcf50aad39508a6ed53') in 0.002146 seconds 
+  Import took 0.004317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.721174 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-08.png
+  artifactKey: Guid(c6a16708710aa9c4fa27c497ec9b0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-08.png using Guid(c6a16708710aa9c4fa27c497ec9b0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74355d93c08a127be2758a289a62853e') in 0.018374 seconds 
+  Import took 0.021255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.652806 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-06.png
+  artifactKey: Guid(ba0f8cceb1103a443a36d65981eddccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-06.png using Guid(ba0f8cceb1103a443a36d65981eddccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1432a88006a6f084af0af09ed08f4aee') in 0.020377 seconds 
+  Import took 0.023459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.684871 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-07.png
+  artifactKey: Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-07.png using Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfc41e4fc6ceae27a8c0cecd0d23a2') in 0.013427 seconds 
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-07.png
+  artifactKey: Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-07.png using Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfc41e4fc6ceae27a8c0cecd0d23a2') in 0.022225 seconds 
+  Import took 0.025070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.068587 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-03.png
+  artifactKey: Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-03.png using Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59c88178b1e218b6d72d4813a5fb61') in 0.012953 seconds 
+  Import took 0.015832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001342 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-03.png
+  artifactKey: Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-03.png using Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59c88178b1e218b6d72d4813a5fb61') in 0.024658 seconds 
+  Import took 0.027271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.839682 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-04.png
+  artifactKey: Guid(5286557b6bb5daf48aeaa23cb350abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-04.png using Guid(5286557b6bb5daf48aeaa23cb350abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381bbccd8f5654f4caf3c67e75607f24') in 0.012098 seconds 
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.906578 seconds.
+  path: Assets/Art/MicroGame_Characters_UI-05.png
+  artifactKey: Guid(3cbd639ebd2150d46b576872f4725887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_UI-05.png using Guid(3cbd639ebd2150d46b576872f4725887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d9b50ad51cfe59776f93d732c7d7e0') in 0.020064 seconds 
+  Import took 0.023098 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 1.748900 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.522300 ms  DeleteObjects: 0.011900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1791.713788 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-03.png
+  artifactKey: Guid(172c2bd7420a26346a9c2c9714c8ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-03.png using Guid(172c2bd7420a26346a9c2c9714c8ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e18324ac55ff12123f756d37214af4f') in 0.047739 seconds 
+  Import took 0.051307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.076353 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-09.png
+  artifactKey: Guid(63ea10d55420135459bc1fc92d157fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-09.png using Guid(63ea10d55420135459bc1fc92d157fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198cb4c858b97d4cd8514e2146482c66') in 0.017705 seconds 
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902784 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-10.png
+  artifactKey: Guid(b891a0f9e91ec7141933c734d972e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-10.png using Guid(b891a0f9e91ec7141933c734d972e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb002a2f2d3e65b4491e120b4c515bf') in 0.017908 seconds 
+  Import took 0.020664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816502 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-11.png
+  artifactKey: Guid(649924ed2ffa5c042bff481f574de168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-11.png using Guid(649924ed2ffa5c042bff481f574de168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe787bc6f3b8117757a738a3a2290d6') in 0.019745 seconds 
+  Import took 0.022668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.153301 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-12.png
+  artifactKey: Guid(489b18822ba7a3a4ab19a70e9a050a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-12.png using Guid(489b18822ba7a3a4ab19a70e9a050a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e217d348683beeeb9e37ce851b977dff') in 0.016425 seconds 
+  Import took 0.019412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.677702 seconds.
+  path: Assets/Art/MicroGame_Characters_Smile-13.png
+  artifactKey: Guid(4a585092048897c479fee0ab713acf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicroGame_Characters_Smile-13.png using Guid(4a585092048897c479fee0ab713acf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efd2b6184c0d8bd3b6e3f71cf0d79f3') in 0.021662 seconds 
+  Import took 0.024403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.032545 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Circle.png
+  artifactKey: Guid(172c2bd7420a26346a9c2c9714c8ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Circle.png using Guid(172c2bd7420a26346a9c2c9714c8ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77902456e1aaf0efd4420839c74a823b') in 0.020107 seconds 
+  Import took 0.023070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837392 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Square.png
+  artifactKey: Guid(63ea10d55420135459bc1fc92d157fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Square.png using Guid(63ea10d55420135459bc1fc92d157fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f15e72573925c37f432e5cfecc25627') in 0.019263 seconds 
+  Import took 0.022228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.786487 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Heart.png
+  artifactKey: Guid(b891a0f9e91ec7141933c734d972e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Heart.png using Guid(b891a0f9e91ec7141933c734d972e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae7b12dd86937b485cd55a86c2a3c81') in 0.017570 seconds 
+  Import took 0.020852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612485 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Poly.png
+  artifactKey: Guid(649924ed2ffa5c042bff481f574de168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Poly.png using Guid(649924ed2ffa5c042bff481f574de168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f13142a8e0f69e8df56042662ebbbd') in 0.021670 seconds 
+  Import took 0.024407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.835365 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Triangle.png
+  artifactKey: Guid(489b18822ba7a3a4ab19a70e9a050a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Triangle.png using Guid(489b18822ba7a3a4ab19a70e9a050a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a2dd2b105ff8f0d367ed6461fe960d') in 0.021191 seconds 
+  Import took 0.024257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.388126 seconds.
+  path: Assets/Art/HappyHunting_Kiss_Clover.png
+  artifactKey: Guid(4a585092048897c479fee0ab713acf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Kiss_Clover.png using Guid(4a585092048897c479fee0ab713acf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2792b0d0c414d2756c41b8a335aaddb1') in 0.021100 seconds 
+  Import took 0.024085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.084175 seconds.
+  path: Assets/Art/HappyHunting_Circle.png
+  artifactKey: Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Circle.png using Guid(cbf3684739120ce43a6bedf74c07df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b38f6f483e4eb50c0b9b521035db6b') in 0.013150 seconds 
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.620314 seconds.
+  path: Assets/Art/HappyHunting_Square.png
+  artifactKey: Guid(5286557b6bb5daf48aeaa23cb350abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Square.png using Guid(5286557b6bb5daf48aeaa23cb350abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db35bfc4b5de9d1e093279713710bc0') in 0.015717 seconds 
+  Import took 0.018504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.957073 seconds.
+  path: Assets/Art/HappyHunting_Heart.png
+  artifactKey: Guid(3cbd639ebd2150d46b576872f4725887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Heart.png using Guid(3cbd639ebd2150d46b576872f4725887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bf834df28834414c7a700e4d4e06e3') in 0.019729 seconds 
+  Import took 0.022531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.223459 seconds.
+  path: Assets/Art/HappyHunting_Clove.png
+  artifactKey: Guid(ba0f8cceb1103a443a36d65981eddccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Clove.png using Guid(ba0f8cceb1103a443a36d65981eddccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96eab61b1ea9b3799bc3641836f9cd4') in 0.016490 seconds 
+  Import took 0.019276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.348978 seconds.
+  path: Assets/Art/HappyHunting_Triangle.png
+  artifactKey: Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Triangle.png using Guid(7491fe3d7dcca584088ac4c5655e8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5dde23ef208cb90f440b32ed4e143') in 0.016412 seconds 
+  Import took 0.019490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.066738 seconds.
+  path: Assets/Art/HappyHunting_Poly.png
+  artifactKey: Guid(c6a16708710aa9c4fa27c497ec9b0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/HappyHunting_Poly.png using Guid(c6a16708710aa9c4fa27c497ec9b0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5492e71999012b48e6997dae4b2a239') in 0.016412 seconds 
+  Import took 0.019572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.329867 seconds.
+  path: Assets/Art/Shapes_Kiss
+  artifactKey: Guid(60d19bb3e8976c54c94df2254bac96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shapes_Kiss using Guid(60d19bb3e8976c54c94df2254bac96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d183e3e567026e1b6f2b669acb99f1') in 0.002576 seconds 
+  Import took 0.005386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.721813 seconds.
+  path: Assets/Art/Shapes
+  artifactKey: Guid(991ef7db91dfff046845fa4b788a1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shapes using Guid(991ef7db91dfff046845fa4b788a1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3ff73c593b8d6aefe0ca8995e9058') in 0.003669 seconds 
+  Import took 0.006752 seconds .
 
