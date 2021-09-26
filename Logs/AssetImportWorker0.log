@@ -136,3 +136,4 @@ Received Import Request.
 Start importing Assets/Scripts/HappyHunting/HappyHunting_Crosshair.cs using Guid(678ecf9e0eb92e94bb74cfe5a4416940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14a459fd715a0f51e30fb4a1bf1fc18') in 0.136114 seconds 
   Import took 0.140909 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
