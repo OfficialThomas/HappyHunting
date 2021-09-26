@@ -7,7 +7,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
     public float _speed = 1;
     public float _cooldown = 0.5f;
     public GameObject[] _citizens;
-    public AudioSource _audioSource;
+    private AudioSource _audioSource;
     private bool _shot = false;
     private bool _found = false;
     private float _timer = 0;
@@ -18,6 +18,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
         _citizens = GameObject.FindGameObjectsWithTag("Citizen");
         int target = (int) Random.Range(0f, _citizens.Length - 1);
         _citizens[target].GetComponent<HappyHunting_Citizen>()._target = true;
+        _audioSource = GetComponent<AudioSource>();
         
     }
 
@@ -65,12 +66,9 @@ public class HappyHunting_Crosshair : MonoBehaviour
             CheckForTarget();
             _timer = _cooldown;
             _shot = true;
-<<<<<<< Updated upstream
             //Camera Sound
-=======
-
             _audioSource.Play();
->>>>>>> Stashed changes
+
         }
 
     }
