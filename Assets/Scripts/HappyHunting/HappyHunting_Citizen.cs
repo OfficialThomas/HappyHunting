@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HappyHunting_Citizen : MonoBehaviour
 {
-    public float _speed = 1;
+    public float _speed = 1f;
     public bool _target = false;
     public Sprite _kissingSprite;
 
@@ -25,7 +25,23 @@ public class HappyHunting_Citizen : MonoBehaviour
         Vector3 direction = new Vector3(Random.value, Random.value, 0);
         direction = direction.normalized;
         _rigidBody.velocity = direction * _speed;
-        transform.localScale = new Vector3(1, 1, 1) * Random.Range(0.6f, 3);
+
+        //citizens get smaller and faster at higher difficulties
+        if (GameController.Instance.gameDifficulty == 1)
+        {
+            _speed = 5f;
+            transform.localScale = new Vector3(1, 1, 1) * Random.Range(0.6f, 2.5f);
+        }
+        else if (GameController.Instance.gameDifficulty == 2)
+        {
+            _speed = 7f;
+            transform.localScale = new Vector3(1, 1, 1) * Random.Range(0.6f, 1.75f);
+        }
+        else if (GameController.Instance.gameDifficulty == 3)
+        {
+            _speed = 9f;
+            transform.localScale = new Vector3(1, 1, 1) * Random.Range(0.6f, 1f);
+        } 
         
     }
 

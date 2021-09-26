@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class HappyHunting_Crosshair : MonoBehaviour
 {
+    //crosshair movement
     public float _speed = 1;
     public float _cooldown = 0.5f;
 
+    //timer
+    private float _maxTime = 15f;
+
+    //audio
     public AudioSource _captureSound;
     public AudioSource _BGM;
     public AudioSource _Victory;
 
+    //sprites and collision
     public GameObject[] _citizens;
     private bool _shot = false;
     private bool _found = false;
@@ -19,10 +25,27 @@ public class HappyHunting_Crosshair : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //gathering citizens and setting the target
         _citizens = GameObject.FindGameObjectsWithTag("Citizen");
         int target = (int) Random.Range(0f, _citizens.Length - 1);
         _citizens[target].GetComponent<HappyHunting_Citizen>()._target = true;
         
+        //difficulty
+        if (GameController.Instance.gameDifficulty == 1)
+        {
+            _maxTime = 15f;
+            GameController.Instance.SetMaxTimer(_maxTime);
+        }
+        else if (GameController.Instance.gameDifficulty == 2)
+        {
+            _maxTime = 10f;
+            GameController.Instance.SetMaxTimer(_maxTime);
+        }
+        else if (GameController.Instance.gameDifficulty == 3)
+        {
+            _maxTime = 5f;
+            GameController.Instance.SetMaxTimer(_maxTime);
+        }
     }
 
     // Update is called once per frame
@@ -46,13 +69,13 @@ public class HappyHunting_Crosshair : MonoBehaviour
         }
 
         //keeps in the boundary
-        if (transform.position.x < -9f)
+        if (transform.position.x < -2.8f)
         {
-            transform.position = new Vector3(-9f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-2.8f, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > 9f)
+        if (transform.position.x > 8.8f)
         {
-            transform.position = new Vector3(9f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(8.8f, transform.position.y, transform.position.z);
         }
         if (transform.position.y < -5f)
         {
@@ -73,13 +96,21 @@ public class HappyHunting_Crosshair : MonoBehaviour
             _captureSound.Play();
         }
 
+        //freeze everything if the timer runs out
+        if (GameController.Instance.gameTime >= _maxTime - 0.5)
+        {
+            Debug.Log("Here");
+            Freeze();
+            _timer = _cooldown;
+            _shot = true;
+        }
+
     }
 
     //win game after a pause for a photo
-    IEnumerator ExecuteAfterTime(float time)
+    IEnumerator WinDelay(float time)
     {
         yield return new WaitForSeconds(time);
-
         GameController.Instance.WinGame();
     }
 
@@ -92,11 +123,13 @@ public class HappyHunting_Crosshair : MonoBehaviour
             {
                 if(Mathf.Abs(citizen.transform.position.x - transform.position.x) < 1.15f && Mathf.Abs(citizen.transform.position.y - transform.position.y) < 1.15f)
                 {
-                    Freeze();
                     citizen.GetComponent<SpriteRenderer>().sprite = citizen.GetComponent<HappyHunting_Citizen>()._kissingSprite;
                     _found = true;
+                    Freeze();
                     //Win Condition Here
-                    StartCoroutine(ExecuteAfterTime(2)); // Change to any delay amount before the game ends!
+                    _BGM.Stop();
+                    _Victory.Play();
+                    StartCoroutine(WinDelay(2)); // Change to any delay amount before the game ends!
                 }
             }
         }
@@ -109,8 +142,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
         {
             //stops citizen
             citizen.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-            _BGM.Stop();
-            _Victory.Play();
+            
         }
     }
 }
