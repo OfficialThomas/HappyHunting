@@ -64,6 +64,7 @@ public class HappyHunting_Crosshair : MonoBehaviour
             CheckForTarget();
             _timer = _cooldown;
             _shot = true;
+            //Camera Sound
         }
 
     }
